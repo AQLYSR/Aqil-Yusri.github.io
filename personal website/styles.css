@@ -1,0 +1,45 @@
+.header {
+    margin: 5px 0px;
+}
+.header1 {
+    color: black;
+    margin: 5px 0px;
+}
+.header2 {
+    margin: 5px 0px;
+}
+.email {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.social-media {
+    width: 35px;
+    height: 35px;
+    margin-top: 10px;
+}
+.card {
+    display: flex;
+    width: 350px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: visible;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 13px 5px;    
+}
+.card-thumbnail {
+    width: 65px;
+    height: 65px;
+    margin: 10px;
+    margin-bottom: 0px;
+}
+.card-content {
+    flex-grow: 1;
+    margin: 10px;
+}
+.card-description {
+    margin: 5px 0px;
+}
+.date {
+    margin-top: 5px;
+}
+
