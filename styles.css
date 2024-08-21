@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    height: 100%;
+    height:100%;
     background-color: black;
     font-family: 'Ubuntu';
     display: flex;
@@ -18,8 +18,7 @@ body {
     border-left-color: #2A2B2E;
     border-right-width: 0.5px;
     border-right-color: #2A2B2E;
-    overflow: visible;
-
+    overflow:visible;
 }
 .intro{
     height: auto;
@@ -53,7 +52,7 @@ body {
     margin-left: 5px;
     font-weight: bold;
     font-size: 50px;
-    color: #f8f3ea;
+    color: #f8f3ea
 }
 .description{
     height: 20px;
@@ -135,12 +134,12 @@ background-color: grey;
     margin-right:80px;
     margin-left:80px;
 }
-.experience-description{
-    width: 650px;
-}
 .experience-content{
     display: flex;
     flex-direction: row;
+}
+.experience-description{
+    width: 650px;
 }
 .experiences{
     margin-top: -5px;
@@ -149,7 +148,6 @@ background-color: grey;
     margin:20px;
     font-weight: 600;
     font-size: large;
-
     color: #f8f3ea;
 }
 .experience-image{
@@ -180,6 +178,28 @@ background-color: grey;
     margin: 15px 20px 10px 20px;
     font-size: smaller;
     color: #A2A2AA;
+}
+.project-image{
+    height: 157.5px;
+    width: 300px;
+    border: 1px solid black;
+    margin: 10px 20px 10px 20px;
+    border-radius:10px;
+    background-color: gray;    
+}
+.project-title{
+    font-size: large;
+    font-weight: 500;
+    color: #f8f3ea;
+    margin: 15px 0px 10px 0px;
+}
+.project-date{
+    color: #454545;
+    margin-bottom: 5px;
+}
+.project-description{
+    width: 500px;
+    color: #a2a2aa;
 }
 .footer{
     border-top: 1px solid rgb(52, 52, 52);
