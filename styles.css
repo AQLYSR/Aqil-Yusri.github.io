@@ -78,55 +78,6 @@ body {
     width: 36px;
     height: auto;
 }
-.photos{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    position: relative;
-    margin-top: 50px;
-    margin-bottom:330px;
-}
-.photo-1{
-    border: 1px solid rgb(52, 52, 52);
-    border-radius: 15%;
-    height: 270px;
-    width: 270px;
-    position: absolute;
-    transform: rotate(-5deg);
-    left: -70px;
-background-color: grey;
-}
-.photo-2{
-    border: 1px solid rgb(52, 52, 52);
-    border-radius: 15%;
-    height: 270px;
-    width: 270px;
-    position: absolute;
-    transform: rotate(7deg);
-    left: 250px;
-    background-color: grey;
-}
-.photo-3{
-    border: 1px solid rgb(52, 52, 52);
-    border-radius: 15%;
-    height: 270px;
-    width: 270px;
-    position: absolute;
-    transform: rotate(-3deg);
-    right: 250px;
-    background-color: grey;
-}
-.photo-4{
-    border: 1px solid rgb(52, 52, 52);
-    border-radius: 15%;
-    height: 270px;
-    width: 270px;
-    position: absolute;
-    transform: rotate(4deg);
-    right: -70px;
-    background-color: grey;
-}
-
 .experience{
     height: auto;
     border: 1px solid rgb(52, 52, 52);
