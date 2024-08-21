@@ -30,7 +30,7 @@ body {
     flex-direction: column;
 }
 .pfp{
-    background-color: white;
+    background-color: #f8f3ea;
     height: 100px;
     width: 100px;
     border-radius: 50%;
@@ -53,7 +53,7 @@ body {
     margin-left: 5px;
     font-weight: bold;
     font-size: 50px;
-    color: white
+    color: #f8f3ea;
 }
 .description{
     height: 20px;
@@ -150,7 +150,7 @@ background-color: grey;
     font-weight: 600;
     font-size: large;
 
-    color: white;
+    color: #f8f3ea;
 }
 .experience-image{
     margin:10px 20px 10px 20px;
@@ -168,7 +168,7 @@ background-color: grey;
     display: block;   
 }
 .experience-title{
-    color: white;
+    color: #f8f3ea;
     font-size: small;
     margin: 15px 0px 10px 0px
 }
