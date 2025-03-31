@@ -1,6 +1,12 @@
 /* Simple styles for basic layout */
+@font-face {
+	font-family: '0xProto Nerd Font';
+	src: url('/fonts/0xProtoNerdFont-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
 body {
-    font-family: sans-serif;
+    font-family: '0xProto Nerd Font', monospace;
     margin: 20px;
     line-height: 1.5;
     background-color: black;
