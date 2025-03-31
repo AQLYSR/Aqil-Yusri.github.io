@@ -1,0 +1,81 @@
+---
+---
+
+@import "minima";
+
+/* Custom styles to match main website */
+@font-face {
+    font-family: '0xProto Nerd Font';
+    src: url('/fonts/0xProtoNerdFont-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: '0xProto Nerd Font', monospace;
+    margin: 20px;
+    line-height: 1.5;
+    background-color: black;
+    color: white;
+}
+
+.site-header {
+    border-bottom: none;
+    margin-bottom: 20px;
+}
+
+.site-title, .site-title:visited {
+    color: white;
+}
+
+.page-content {
+    padding: 0;
+}
+
+.site-nav .page-link {
+    color: white;
+}
+
+.post-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.post-list li {
+    margin-bottom: 40px;
+}
+
+.post-date {
+    display: block;
+    color: #999;
+    margin-bottom: 5px;
+}
+
+.post-link {
+    color: #2B59C3;
+    text-decoration: none;
+}
+
+.post-excerpt {
+    margin-top: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: white;
+}
+
+.site-footer {
+    border-top: none;
+}
+
+a, a:visited {
+    color: #2B59C3;
+}
+
+.post-content {
+    margin-bottom: 30px;
+}
+
+.wrapper {
+    max-width: 800px;
+}
