@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Aqil Yusri</title>
 	<link rel="stylesheet" href="/css/styles.css">
+	<script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
 	<header>
@@ -21,16 +22,15 @@
 	
     <main>
         <section id="introduction">
-            <h1>Aqil Yusri</h1>
-            <p>An engineer specializing in electronics and semiconductors, with a strong interest in AI and ML.</p>
-            <p>Reach me out at <a href="mailto:aqilyusri@proton.me">aqilyusri@proton.me</a>.</p>
+            <h1>hi there !</h1>
+	    <p>my name is aqil and i'm based in malaysia. i like to do many things like learning about electronics and semiconductor, ai, coding, photography, painting, working out, and learning japanese (otw to N4). i feel like i have interest in too many things that i have to tell myself to not have new hobbies because i can't manage all of them. but i still like to try new things, especially with new people &#128513 arch, hyprland, nvim, tmux btw</p>
+            <p>reach me out at <a href="mailto:aqilyusri@proton.me">aqilyusri@proton.me</a> or dm me at <a href="https://x.com/AQLYSR">x</a>.</p>
         </section>
-        
         <section id="links">
-            <h2>Links</h2>
+            <h2>links</h2>
             <ul class="articles_list">
-                <li class="article"><a href="https://x.com/AQLYSR">Twitter/X</a></li>
-                <li class="article"><a href="https://github.com/AQLYSR">GitHub</a></li>
+                <li class="article"><a href="https://github.com/AQLYSR">github</a></li>
+		<li class="article"><a href="/ihatelinkedin">linkedin</a></li>
             </ul>
         </section>
     </main>
@@ -40,6 +40,19 @@
 	    <footer>
         <p>© 2024 Aqil Yusri. All rights reserved</p>
     </footer>
+
+
+	<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", (user) => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
 
 </body>
 </html>
