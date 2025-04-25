@@ -1,0 +1,67 @@
+/* Simple styles for basic layout */
+@font-face {
+	font-family: '0xProto Nerd Font';
+	src: url('/fonts/0xProtoNerdFont-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+body {
+    font-family: '0xProto Nerd Font', monospace;
+    margin: 20px;
+    line-height: 1.5;
+    background-color: black;
+    color: white;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.navlist{
+    list-style-type: none;
+    padding: 0;
+}
+
+.navclass{
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    color: #2B59C3;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #2B59C3;
+}
+
+footer {
+    max-width: 800px;
+    margin: 40px auto 0;
+    font-size: 0.96em;
+    text-align: center;
+}
+.articles_list{
+	list-style-type: none;
+	padding-left: 0;
+}
+.article {
+	display: flex;
+	align-items: center;
+}
+.article::before {
+	content: "-";
+	color: white;
+	margin-right: 5px;
+}
+#linkedin {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
